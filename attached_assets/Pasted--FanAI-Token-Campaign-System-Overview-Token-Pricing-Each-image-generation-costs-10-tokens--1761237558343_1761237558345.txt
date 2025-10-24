@@ -1,0 +1,105 @@
+🎯 FanAI Token & Campaign System Overview
+💰 Token Pricing
+
+Each image generation costs: 10 tokens
+
+User token rate: 10 tokens = ₹5
+
+Users can purchase tokens at this rate (via payment gateway — coming soon).
+
+🆓 Free Trial
+
+Every new user receives 20 free tokens automatically to test the platform before making any purchase.
+
+📸 Campaigns
+
+Campaigns allow celebrities, creators, or brands to run special promotions with exclusive templates for fans.
+
+Campaign Setup & Pricing
+
+Minimum campaign: ₹10,000
+
+For every ₹10,000, the campaign receives 25,000 tokens
+
+Campaign templates are exclusive — available only on that celebrity’s campaign page.
+
+Fans can use these templates for free as long as campaign tokens remain.
+
+How Campaigns Work
+
+Campaigns cannot be purchased directly through the website.
+Interested celebrities, managers, or promoters must contact us via email to start a campaign.
+
+Once approved, the admin sets up the campaign manually through the admin panel:
+
+Uploads exclusive templates
+
+Adds the celebrity’s campaign details
+
+Allocates the campaign’s 25,000 tokens (or more if needed)
+
+As users generate photos on the campaign page, the campaign token balance decreases automatically.
+
+When the campaign tokens run out, users can continue generating by using their personal tokens at normal rates.
+
+🧾 Credits & Security
+
+Every image generation request is linked to either:
+
+The user’s personal balance, or
+
+The campaign’s shared balance (if generating from a campaign page).
+
+All token balances are stored securely in the database, not on the client side.
+
+Tokens can only be added, deducted, or modified through authenticated server-side operations or admin actions.
+
+Admin panel provides full control for:
+
+Creating and managing campaigns
+
+Allocating additional campaign tokens
+
+Monitoring token usage and campaign stats
+
+🔐 Security Features
+
+No client-side token editing — balances are protected by the backend.
+
+Atomic transactions ensure no double spending.
+
+Audit logs track all token activities (user, campaign, admin).
+
+Admin-only top-ups prevent unauthorized token inflation.
+
+Each new user’s 20 trial tokens are granted by the server automatically upon registration.
+
+📩 Campaign Onboarding Flow
+
+A celebrity or promoter sends a request to:
+📧 fanai.partners@gmail.com
+ (example — use your real one)
+
+Admin reviews and approves the campaign.
+
+Admin uses the Admin Panel to:
+
+Create the campaign
+
+Upload templates & images
+
+Set initial campaign token allocation (e.g., 25,000 tokens for ₹10,000)
+
+Publish the campaign page
+
+🧠 Example Scenario
+
+Celebrity: “Akshay Kumar”
+
+Campaign: “Welcome to my new movie launch”
+
+Setup: ₹10,000 → 25,000 campaign tokens
+
+Result:
+Fans can visit the campaign page → select exclusive Akshay templates → generate photos for free (using campaign tokens).
+When all 25,000 tokens are used, fans must buy personal tokens to continue generatin
